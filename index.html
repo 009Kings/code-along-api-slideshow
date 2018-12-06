@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Reddit Fetch</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />  
+</head>
+<body>
+    <div class="start-state">
+        <h1>Welcome to the New Reddit Search</h1>
+        <p>Here are the instructions on how to do the thing.</p>
+        <form action="GET" id="search">
+            <input type="text" name="search-input" id="search-input">
+            <input type="submit" value="Find some Images!" id="submit-button">
+        </form>
+    </div>
+    <div id="search-results">
+    </div>
+
+    <div id="post-search-buttons">
+        <button id="stop-slideshow">Stop the Slideshow</button>
+        <button id="search-again">Search Again</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
